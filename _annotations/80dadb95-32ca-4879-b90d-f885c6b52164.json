@@ -1,0 +1,35 @@
+---
+canvas: "https://d.lib.ncsu.edu/collections/canvas/segIns_020"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Testing annotate feature",
+            "purpose": "commenting",
+            "creator": {
+                "id": "wsalesky",
+                "name": "Winona Salesky"
+            },
+            "created": "2023-08-30T16:24:46.307Z",
+            "modified": "2023-08-30T16:24:52.372Z"
+        }
+    ],
+    "target": {
+        "source": "https://d.lib.ncsu.edu/collections/canvas/segIns_020",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=463.7359924316406,662.1583251953125,1619.5745544433594,1631.4312744140625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://d.lib.ncsu.edu/collections/catalog/segIns_020/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "80dadb95-32ca-4879-b90d-f885c6b52164.json",
+    "motivation": "commenting"
+}
